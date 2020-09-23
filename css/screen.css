@@ -181,6 +181,10 @@ a:focus {
   color: #2d5ca3;
 }
 
+label,
+input {
+  display: block;
+}
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -451,6 +455,18 @@ a:focus {
   height: 100%;
 }
 
+.c-logo__path--1 {
+  fill: #20223a;
+}
+
+.c-logo__path--2 {
+  fill: #3385ff;
+}
+
+.c-logo__path--3 {
+  fill: #1b4186;
+}
+
 /*
     Component: Card
     ---
@@ -462,6 +478,12 @@ a:focus {
     ---
     Everything form related here
 */
+
+.c-form-field {
+  /* display: flex; */
+  /* align-items: center;
+    justify-content: center; */
+}
 
 /*
     Component: Input
